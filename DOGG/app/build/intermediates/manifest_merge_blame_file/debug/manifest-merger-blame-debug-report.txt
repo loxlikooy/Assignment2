@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dogglers"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:25:5-72
+11-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:25:22-69
+12
+13    <application
+13-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:6:5-35:19
+14        android:allowBackup="true"
+14-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.2] /Users/loxlikooy/.gradle/caches/transforms-3/bde2df02fe9d6cf74306c1ab1fbf44a5/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Dogglers" >
+22-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:12:9-46
+23        <activity android:name="com.example.dogglers.VerticalListActivity" >
+23-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:13:9-17:20
+23-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:13:19-55
+24            <meta-data
+24-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:14:13-16:49
+25                android:name="android.support.PARENT_ACTIVITY"
+25-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:15:17-63
+26                android:value=".MainActivity" />
+26-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:16:17-46
+27        </activity>
+28        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+28-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:18:9-22:20
+28-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:18:19-57
+29            <meta-data
+29-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:14:13-16:49
+30                android:name="android.support.PARENT_ACTIVITY"
+30-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:15:17-63
+31                android:value=".MainActivity" />
+31-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:16:17-46
+32        </activity>
+33        <activity android:name="com.example.dogglers.GridListActivity" >
+33-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:23:9-27:20
+33-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:23:19-51
+34            <meta-data
+34-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:14:13-16:49
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:15:17-63
+36                android:value=".MainActivity" />
+36-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:16:17-46
+37        </activity>
+38        <activity android:name="com.example.dogglers.MainActivity" >
+38-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:28:9-34:20
+38-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:28:19-47
+39            <intent-filter>
+39-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:29:13-33:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:17-69
+40-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:32:17-77
+42-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:32:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:28:9-37:20
+46            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+46-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:29:13-96
+47            android:exported="true"
+47-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:30:13-36
+48            android:multiprocess="true"
+48-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:31:13-40
+49            android:taskAffinity=""
+49-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:32:13-36
+50            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+50-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:33:13-78
+51            <intent-filter>
+51-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:17-69
+52-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:25-66
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:27:9-33:20
+56            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+56-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:28:13-99
+57            android:theme="@android:style/Theme" >
+57-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:29:13-49
+58            <intent-filter>
+58-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:17-69
+59-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:25-66
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:34:9-40:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+63-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:35:13-95
+64            android:theme="@android:style/Theme" >
+64-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:36:13-49
+65            <intent-filter>
+65-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:17-69
+66-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:25-66
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:41:9-47:20
+70            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+70-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:42:13-103
+71            android:theme="@android:style/Theme.Dialog" >
+71-->[androidx.test:core:1.3.0] /Users/loxlikooy/.gradle/caches/transforms-3/96b5bf5c8b85cc3cfdd22cf95b9d090b/transformed/jetified-core-1.3.0/AndroidManifest.xml:43:13-56
+72            <intent-filter>
+72-->[androidx.fragment:fragment-testing:1.3.3] /Users/loxlikooy/.gradle/caches/transforms-3/1ac753a9f7a453c935ac5dc910d48791/transformed/jetified-fragment-testing-1.3.3/AndroidManifest.xml:34:13-36:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:17-69
+73-->/Users/loxlikooy/Downloads/Dogglers-kt/app/src/main/AndroidManifest.xml:30:25-66
+74            </intent-filter>
+75        </activity>
+76    </application>
+77
+78</manifest>
